@@ -1,0 +1,128 @@
+{
+	"name": "rpi-sync",
+	"displayName": "RPi Sync",
+	"description": "Syncs code to a RPi using rsync.",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.36.0"
+	},
+	"bugs": {},
+	"keywords": [],
+	"icon": "",
+	"homepage": "",
+	"author": {},
+	"license": "",
+	"os": [],
+	"repository": {},
+	"readme": "",
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "rsync.sync",
+				"title": "Run Sync"
+			},
+			{
+				"command": "rsync.global",
+				"title": "Run Sync from Global File"
+			},
+			{
+				"command": "rsync.create",
+				"title": "Create a Workspace Sync File"
+			},
+			{
+				"command": "rsync.edit",
+				"title": "Edit Sync File"
+			},
+			{
+				"command": "rsync.delete",
+				"title": "Delete Workspace Sync File"
+			},
+			{
+				"command": "rsync.gedit",
+				"title": "Edit Global Sync File"
+			},
+			{
+				"command": "rsync.exclude",
+				"title": "Exclude from Sync"
+			},
+			{
+				"command": "rsync.editexclude",
+				"title": "Edit Exclude File"
+			},
+			{
+				"command": "rsync.shell",
+				"title": "Toggle Between Batch and Bash"
+			},
+			{
+				"command": "rsync.diff",
+				"title": "Compare Source and Destination"
+			},
+			{
+				"command": "rsync.gdiff",
+				"title": "Compare Source and Destination from Global File"
+			},
+			{
+				"command": "rsync.diffcreate",
+				"title": "Create a Workspace Compare File"
+			},
+			{
+				"command": "rsync.diffedit",
+				"title": "Edit Compare File"
+			},
+			{
+				"command": "rsync.diffgedit",
+				"title": "Edit Global Compare File"
+			},
+			{
+				"command": "rsync.diffdelete",
+				"title": "Delete Workspace Compare File"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "rsync.sync",
+				"key": "ctrl+alt+s",
+				"mac": "shift+cmd+s"
+			},
+			{
+				"command": "rsync.edit",
+				"key": "ctrl+alt+e",
+				"mac": "shift+cmd+e"
+			}
+		],
+		"menus": {
+			"explorer/context": [{
+				"command": "rsync.exclude",
+				"group": "2_workspace"
+		  }
+		],
+		"commandPalette": [
+			{
+			  "command": "rsync.exclude",
+			  "when": "false"
+			}
+		  ]
+	},
+	"scripts": {
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.1",
+		"@types/mocha": "^5.2.6",
+		"@types/node": "^10.12.21",
+		"@types/vscode": "^1.36.0",
+		"eslint": "^5.13.0",
+		"glob": "^7.1.4",
+		"mocha": "^6.1.4",
+		"typescript": "^3.3.1",
+		"vscode-test": "^1.0.2"
+	}
+}
+}
