@@ -1,20 +1,25 @@
 {
 	"name": "rpi-sync",
 	"displayName": "RPi Sync",
-	"description": "Syncs code to a RPi using rsync.",
+	"description": "Syncs code from a computer to a RPi using rsync.",
 	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.36.0"
 	},
-	"bugs": {},
-	"keywords": [],
-	"icon": "",
-	"homepage": "",
-	"author": {},
-	"license": "",
-	"os": [],
-	"repository": {},
-	"readme": "",
+	"bugs": {
+		"url": "https://github.com/WampyCakes/RPi-Sync/issues"
+	},
+	"keywords": ["raspberrypi", "rsync", "batch", "transfer", "copy"],
+	"icon": "resources/icon.png",
+	"homepage": "https://github.com/WampyCakes/RPi-Sync",
+	"author": "KingWampy",
+	"publisher": "KingWampy",
+	"license": "SEE LICENSE IN LICENSE.MD",
+	"os": ["windows", "mac", "linux"],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/WampyCakes/RPi-Sync.git"
+	},
 	"categories": [
 		"Other"
 	],
