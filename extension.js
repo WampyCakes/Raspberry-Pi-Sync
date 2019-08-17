@@ -29,7 +29,7 @@ function activate(context) {
 			terminal.sendText(transferFile.getWorkspacePath()+" "+'\"'+excludeFile+'\"');
 		}else{
 			vscode.commands.executeCommand('rsync.global');
-			vscode.window.showInformationMessage('There is no workspace sync file.');
+			vscode.window.showInformationMessage('There is no workspace sync file. Running the global file.');
 		}
 	});
 
@@ -48,7 +48,7 @@ function activate(context) {
 			terminal.sendText(diffFile.getWorkspacePath()+" "+'\"'+excludeFile+'\"');
 		}else{
 			vscode.commands.executeCommand('rsync.gdiff');
-			vscode.window.showInformationMessage('There is no workspace compare file.');
+			vscode.window.showInformationMessage('There is no workspace compare file. Running the global file.');
 		}
 	});
 
