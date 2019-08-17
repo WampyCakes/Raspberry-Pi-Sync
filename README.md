@@ -56,7 +56,7 @@ On Windows, you must use Cygwin to install rsync and use cygdrive paths.
 
 You can [download](https://github.com/WampyCakes/RPi-Sync/releases) the latest version of the extension. To install, run `code --install-extension rpi-sync-{version}.vsix`
 
-You can also install it from the VSCode Marketplace.
+You can also install it from the [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=KingWampy.raspberrypi-sync).
 
 ## Cygwin & Rsync Resources
 [Installation, Setup, and Use](https://www.howtogeek.com/175008/the-non-beginners-guide-to-syncing-data-with-rsync/)
