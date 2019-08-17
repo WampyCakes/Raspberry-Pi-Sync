@@ -1,4 +1,4 @@
-# RPi Sync
+# Raspberry Pi Sync
 
 This Visual Studio Code extension adds the ability to sync code between a computer and a Raspberry Pi with minimal setup using rsync. This plugin was tested on VSCode v1.36.1 on Windows 7 using [Cygwin](https://cygwin.com/) for rsync (v3.0.6, protocol version 30) capability and a Raspberry Pi running Ubuntu MATE v18.04.2 LTS.
 
@@ -72,6 +72,10 @@ You can also install it from the VSCode Marketplace.
 None
 
 ## Release Notes
+
+### 1.0.1
+
+>Edited a message in the UI
 
 ### 1.0.0
 
