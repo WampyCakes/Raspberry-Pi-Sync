@@ -2,7 +2,7 @@
 	"name": "raspberrypi-sync",
 	"displayName": "Raspberry Pi Sync",
 	"description": "Syncs code from a computer to a Raspberry Pi using rsync.",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"engines": {
 		"vscode": "^1.36.0"
 	},
